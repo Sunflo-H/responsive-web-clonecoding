@@ -1,0 +1,154 @@
+html {
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    color: #111111;
+    background-color: #ffffff;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    height: 100%;
+}
+header {
+    box-sizing: border-box;
+}
+header .container {
+    display: flex;
+    width: 1140px;
+    min-height: 80px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+header img {
+    width: 64px;
+    height: 32px;
+}
+header i {
+    font-size: 1.7rem;
+    margin-right: 5px;
+}
+
+main {
+    display: flex;
+    min-height: 100%;
+}
+main .container{
+    flex:0 0 33.3333333%;
+    
+}
+
+.h50-container {
+    height: 50%;
+}
+.h100-container {
+    height: 100%;
+}
+.img1 {
+    background-size: cover;
+    background-image: url(img/sd-min.jpg);
+    background-position: 0px -70px;
+    background-repeat: no-repeat;
+}
+.img2 {
+    background-image: url(img/gh-min.jpg);
+    background-size: cover;
+    background-position: -100px 0px;
+    background-repeat: no-repeat;
+}
+.img3 {
+    background-size: cover;
+    background-image: url(img/adorable-young-woman-with-dark-hair-looking-with-interest-while-posing-knitted-sweater-attractive-girl-with-trendy-hairstyle-isolated-purple-wall_.jpg);
+    background-position: -30px 0px;
+    background-repeat: no-repeat;
+}
+
+.text-container1 {
+    max-height: 50%;
+    background-color: #e499bf;
+    color: white;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.2rem;
+    padding: 30px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.text-container1 .text2 {
+    margin-top: 20px;
+}
+.text-container1 .text2 a {
+    color: white;
+    pointer-events: none;
+}
+.text-container1 .icons {
+    display: flex;
+    margin-top: 20px;
+}
+.text-container1 .icons a {
+    color: white;
+    margin-right: 35px;
+}
+.text-container1 .icons a:nth-child(1){
+    margin-left: 10px;
+}
+
+
+.text-container1 .icons i {
+    font-size: 1.7rem;
+}
+.text-container2 {
+    background-color: black;
+    color: white;
+    padding: 30px 60px;
+    box-sizing: border-box;
+}
+.text-container2 .text1{
+    font-size: 1.5rem;
+    letter-spacing: 4px;
+    margin: 42px 0 0;
+    font-weight: 600;
+}
+.text-container2 .text2{
+    font-weight: 600;
+    font-size: 2.5rem;
+    margin: 20px 0 0;
+    line-height: 1.2;
+}
+.text-container2 i {
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+footer {
+    width: 100%;
+    min-height: 200px;
+    background-color: #5e51a9;
+    padding-top: 80px;
+    box-sizing: border-box;
+    color: white;
+}
+
+footer .container {
+    display: flex;
+    margin: 0 221.5px;
+    justify-content: space-between;
+} 
+footer .text1 {
+    width: 630px;
+    padding-top: 5px;
+    font-size: 1.1rem;
+    text-align: center;
+    font-weight: 520;
+}
+footer .icons {
+    font-size: 20px;
+}
+footer .icons i {
+    margin-left: 10px;
+}

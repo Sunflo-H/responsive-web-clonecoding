@@ -1,0 +1,39 @@
+html {
+    height: 100%;
+    background-color: red;
+}
+
+body {
+    height: 100%;
+    background-color: blue;
+}
+
+main {
+
+    height: 100%;
+    background-color: green;
+}
+
+main .container{
+    flex:0 0 33.3333333%;
+    /* background:red; */
+}
+
+.img-container {
+    display: flex;
+    /* height: 100%; */
+}
+
+.img1 {
+    background-size: cover;
+    background-image: url(img/sd-min.jpg);
+}
+.img2 {
+    background-image: url(img/gh-min.jpg);
+    background-size: cover;
+
+}
+.img3 {
+    background-size: cover;
+    background-image: url(img/adorable-young-woman-with-dark-hair-looking-with-interest-while-posing-knitted-sweater-attractive-girl-with-trendy-hairstyle-isolated-purple-wall_.jpg);
+}
